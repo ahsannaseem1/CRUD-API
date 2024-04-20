@@ -1,0 +1,66 @@
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #f7f7f7;
+}
+
+h1 {
+    background-color: #333;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    margin: 0;
+}
+
+#userForm {
+    margin: 20px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #ddd;
+}
+
+#userForm input[type=text],
+#userForm input[type=email],
+#userForm button {
+    padding: 10px;
+    margin-right: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 16px;
+}
+
+#userForm button {
+    background-color: #5cb85c;
+    color: white;
+    cursor: pointer;
+}
+
+#userForm button:hover {
+    background-color: #4cae4c;
+}
+
+#users p {
+    background-color: #fff;
+    padding: 10px;
+    margin: 10px 20px;
+    border-radius: 4px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+#users button {
+    padding: 5px 10px;
+    margin-left: 10px;
+    background-color: #d9534f;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+#users button:hover {
+    opacity: 0.9;
+}
+
+#users button.update {
+    background-color: #f0ad4e;
+}
